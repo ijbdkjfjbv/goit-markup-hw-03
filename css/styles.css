@@ -37,6 +37,7 @@ body {
 
 }
 .page-text {
+    display: block;
     color: var(--NAVY-BLUE, #2E2F42);
         /* Body Medium */
         font-family: Roboto;
@@ -46,6 +47,8 @@ body {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+        padding-top: 24px;
+        padding-bottom: 24px;
         }
         .page-text:hover,
         .page-text:focus {
@@ -120,6 +123,22 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.page-navigation {
+    display: flex;
+}
+.menu {
+    display: flex;
+    column-gap: 40px;
 }
 
 .benefits-list-title{
