@@ -44,6 +44,13 @@ img {
     padding-left: 15px;
     padding-right: 15px;
 }
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -140,6 +147,12 @@ body {
 }
 
 .main-title {
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 188px;
+    margin-bottom: 48px;
+
     color: var(--WHITE, #FFF);
     text-align: center;
     /* Header 1 */
@@ -153,20 +166,26 @@ body {
 }
 
 .buy-now-btn {
+    margin-left: 636px;
+    margin-right: 635px;
+    margin-bottom: 188px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: var(--IRIS, #4D5AE5);
 }
-
 .buy-now-btn:hover,
 .buy-now-btn:focus {
     background-color: #404BBF;
 }
-
+.benefits-list-one {
+display: flex;
+    column-gap: 24px;
+ 
+}
 .benefits-list-title {
-
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-family: Roboto;
@@ -179,6 +198,7 @@ body {
 }
 
 .benefits-list-text {
+    
     color: var(--SLATE, #434455);
     /* Body */
     font-family: Roboto;
@@ -193,6 +213,11 @@ body {
 .section-tit {
     background-color: #F4F4FD;
 }
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 
 .section-title {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -206,13 +231,47 @@ body {
     /* 111.111% */
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
-
+.ingredients-list-one{
+    display: flex;
+    column-gap: 24px;
+    border-radius: 0px 0px 4px 4px;
+        background: var(--WHITE, #FFF);
+        box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 .ingredients-list {
     background-color: #FFFFFF;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+        
+    
+}
+
+
+
 .ingredients-list-title {
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 8px;
+    color: var(--NAVY-BLUE, #2E2F42);
+    /* Header 3 */
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 120% */
+    letter-spacing: 0.4px;
+}
+.ingredients-list-title-two {
+    margin-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-family: Roboto;
@@ -225,6 +284,23 @@ body {
 }
 
 .ingredients-list-par {
+    text-align: center;
+    padding-bottom: 32px;
+    color: var(--SLATE, #434455);
+
+    /* Body */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.32px;
+}
+
+.ingredients-list-par-two {
+    margin-left: 16px;
+    padding-bottom: 32px;
     color: var(--SLATE, #434455);
 
     /* Body */
@@ -242,6 +318,7 @@ body {
 }
 
 .page-footer-title {
+    width: 264px;
     color: var(--CLOUD, #F4F4FD);
     /* Body */
     font-family: Roboto;
@@ -251,9 +328,12 @@ body {
     line-height: 24px;
     /* 150% */
     letter-spacing: 0.32px;
+    padding-bottom: 100px;
+    padding-top: 17.5px;
 }
 
 .logotype-two {
+    padding-top: 17.5px;
     color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -275,4 +355,4 @@ body {
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
+    }
