@@ -284,6 +284,10 @@ display: flex;
     /* 120% */
     letter-spacing: 0.4px;
 }
+
+.ngredients-list-two-two{
+    row-gap: 48px;
+}
 .ingredients-list-title-two {
     margin-left: 16px;
     padding-top: 32px;
