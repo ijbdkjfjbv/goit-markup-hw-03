@@ -232,7 +232,6 @@ display: flex;
 
 
 .section-title {
-    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
@@ -272,9 +271,9 @@ display: flex;
 
 
 .ingredients-list-title {
+    margin-bottom: 8px;
     text-align: center;
     padding-top: 32px;
-    padding-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
     font-family: Roboto;
