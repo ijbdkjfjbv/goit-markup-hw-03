@@ -193,8 +193,9 @@ body {
 .benefits-list-one {
 display: flex;
     gap: 24px;
+}
+.benefits-list {
     
- 
 }
 .benefits-list-title {  
     margin-bottom: 8px;
@@ -248,6 +249,9 @@ display: flex;
     display: flex;
     gap: 24px
    
+}
+.ingredients-container {
+    padding: 32px 0;
 }
 .ingredients-list {
     background-color: #FFFFFF;
