@@ -232,6 +232,7 @@ display: flex;
 
 
 .section-title {
+    margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     /* Header 2 */
