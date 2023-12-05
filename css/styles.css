@@ -36,6 +36,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.page-header {
+    border-bottom: 1px solid #e7e9fc
+}
 .page-header-container {
     display: flex;
     width: 1158px;
