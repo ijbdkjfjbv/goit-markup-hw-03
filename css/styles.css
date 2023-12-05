@@ -193,11 +193,11 @@ body {
 .benefits-list-one {
 display: flex;
     gap: 24px;
+    calc((100% - 3 * 24px) / 4)
     
  
 }
 .benefits-list-title {
-    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
@@ -211,7 +211,6 @@ display: flex;
 }
 
 .benefits-list-text {
-    
     color: var(--SLATE, #434455);
     /* Body */
     font-family: Roboto;
