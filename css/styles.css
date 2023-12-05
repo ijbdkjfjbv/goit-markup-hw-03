@@ -175,6 +175,7 @@ body {
  margin-bottom: 188px; */
 .buy-now-btn {
     display: block;
+    text-align: center;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -191,10 +192,12 @@ body {
 }
 .benefits-list-one {
 display: flex;
-    column-gap: 24px;
+    gap: 24px;
+    
  
 }
 .benefits-list-title {
+    width: calc((100% - 72px) / 4);
     margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
