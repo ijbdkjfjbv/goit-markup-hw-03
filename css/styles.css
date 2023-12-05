@@ -289,8 +289,9 @@ display: flex;
     letter-spacing: 0.4px;
 }
 
-.ngredients-list-two-two{
+.ingredients-list-two-two{
     row-gap: 48px;
+    border-top: none;
 }
 .ingredients-list-title-two {
     margin-bottom: 8px;
