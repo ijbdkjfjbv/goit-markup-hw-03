@@ -73,7 +73,7 @@ body {
 }
 .logotype {
     color: var(--IRIS, #4D5AE5);
-    margin-right: 76px;
+    /* margin-right: 76px; */
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -175,6 +175,7 @@ body {
  margin-bottom: 188px; */
 .buy-now-btn {
     display: block;
+    margin: 0 auto;
     text-align: center;
     min-width: 169px;
     height: 56px;
@@ -185,6 +186,7 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: var(--IRIS, #4D5AE5);
+    
 }
 .buy-now-btn:hover,
 .buy-now-btn:focus {
