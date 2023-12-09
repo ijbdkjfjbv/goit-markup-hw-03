@@ -192,13 +192,14 @@ body {
 }
 .benefits-list-one {
 display: flex;
-column-gap: 24px;
+gap: 24px;
 
 }
 .benefits-list {
-width: calc((100% - 72px) / 4);
+
 }
 .benefits-list-title {  
+    flex-basis: calc((100% - 72px) / 4);
     margin-bottom: 8px;
     color: var(--NAVY-BLUE, #2E2F42);
     /* Header 3 */
