@@ -195,7 +195,7 @@ display: flex;
     gap: 24px;
 }
 .benefits-list {
-    
+width: calc((100% - 3 * 24px));
 }
 .benefits-list-title {  
     margin-bottom: 8px;
